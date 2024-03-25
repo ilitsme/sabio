@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<link rel="apple-touch-icon" sizes="180x180" href="static/favicon/apple-touch-icon.png" />
+	<link rel="icon" type="image/png" sizes="32x32" href="static/favicon/favicon-32x32.png" />
+	<link rel="icon" type="image/png" sizes="16x16" href="static/favicon/favicon-16x16.png" />
+	<link rel="manifest" href="static/favicon/site.webmanifest" />
+	<link rel="shortcut icon" href="static/favicon/favicon.ico" />
+	<meta name="msapplication-TileColor" content="#da532c" />
+	<meta name="msapplication-config" content="static/favicon/browserconfig.xml" />
+	<meta name="theme-color" content="#ffffff" />
+	<script defer="defer" src="js/main.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<title>SabioTrade</title>
+</head>
+
+<body>
+	<header class="header">
+		<div class="header__last">
+			<div class="container">
+				<div class="logo"><a href="/"></a></div>
+				<div class="nav">
+					<ul class="nav__list">
+						<li class="nav__item">
+							<a href="#why-us" class="nav__link buttonS buttons buttons--ghost-secondary buttons__size--middle"
+								data-event="sabio-header_whyus">Why Us</a>
+						</li>
+						<li class="nav__item">
+							<a href="#plans" class="nav__link buttonS buttons buttons--ghost-secondary buttons__size--middle"
+								data-event="sabio-header_plans">Plans</a>
+						</li>
+						<li class="nav__item">
+							<a href="#reviews" class="nav__link buttonS buttons buttons--ghost-secondary buttons__size--middle"
+								data-event="sabio-header_reviews">Reviews</a>
+						</li>
+						<li class="nav__item">
+							<a href="#faq" class="nav__link buttonS buttons buttons--ghost-secondary buttons__size--middle"
+								data-event="sabio-header_faq">Blog</a>
+						</li>
+						<li class="nav__item">
+							<a href="#About" class="nav__link buttonS buttons buttons--ghost-secondary buttons__size--middle"
+								data-event="sabio-header_faq">About Us</a>
+						</li>
+					</ul>
+				</div>
+				<div class="header__controls">
+					<div class="header__controls-item">
+						<div class="lang">
+							<div class="lang__container">
+								<div class="lang__btn buttons buttons--ghost-secondary buttons__size--middle">
+									<div class="lang__menu">
+										<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M3 12H21M3 6H21M9 18H21" stroke="#B9BADB" stroke-width="1.6" stroke-linecap="round"
+												stroke-linejoin="round"></path>
+										</svg>
+									</div>
+									<div class="lang__icon">
+										<img src="images/en.svg" alt="UK Flag" />
+									</div>
+									<div class="lang__text buttonS">ENG</div>
+									<div class="lang__arrow">
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+											<path d="M6 9L12 15L18 9" fill="#DDDDDD" />
+											<path d="M6 9L12 15L18 9" stroke="#DDDDDD" stroke-width="1.6" stroke-linecap="round"
+												stroke-linejoin="round" />
+										</svg>
+									</div>
+								</div>
+								<div class="lang__list">
+									<div class="logo"><a href="/"></a></div>
+									<div class="header__controls-item">
+										<a href="#plans" class="buttons buttons--secondary buttonS" data-event="sabio-right-plans">Get
+											funded</a>
+									</div>
+									<div class="lang__close">
+										<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M18 6L6 18M6 6L18 18" stroke="#4A4C8E" stroke-width="1.6" stroke-linecap="round"
+												stroke-linejoin="round"></path>
+										</svg>
+									</div>
+
+									<a href="/" class="lang__item" data-google-lang="en" data-event="sabio-language_change"
+										data-params="en">
+										<div class="lang__icon">
+											<img src="images/en.svg" alt="UK Flag" />
+										</div>
+										<div class="lang__text buttonS">ENG</div>
+										<div class="lang__text__mobile">English</div>
+									</a><a href="index-spa.html" class="lang__item" data-google-lang="es"
+										data-event="sabio-language_change" data-params="spa">
+										<div class="lang__icon">
+											<img src="images/esp.svg" alt="Spain Flag, representing the Spanish language." />
+										</div>
+										<div class="lang__text buttonS">SPA</div>
+										<div class="lang__text__mobile">Spanish</div>
+									</a><a href="index-por.html" class="lang__item" data-google-lang="pt"
+										data-event="sabio-language_change" data-params="por">
+										<div class="lang__icon">
+											<img src="images/pt.svg" alt="Flag of Portugal, representing the portuguese language." />
+										</div>
+										<div class="lang__text buttonS">POR</div>
+										<div class="lang__text__mobile">Portuguese</div>
+									</a><a href="index-ita.html" class="lang__item" data-google-lang="it"
+										data-event="sabio-language_change" data-params="ita">
+										<div class="lang__icon">
+											<img src="images/it.svg" alt="Flag of Italy, representing the Italian language." />
+										</div>
+										<div class="lang__text buttonS">ITA</div>
+										<div class="lang__text__mobile">Italian</div>
+									</a>
+									<a href="https://dashboard.sabiotrade.io/Account/Login?ReturnUrl=%2Findex"
+										class="buttons buttons--ghost-secondary buttons__size--middle buttonS lang__last-btn"
+										target="_blank" data-event="sabio-login">Log in</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="header__controls-item none">
+						<a href="https://dashboard.sabiotrade.io/Account/Login?ReturnUrl=%2Findex"
+							class="buttons buttons--ghost-secondary buttons__size--middle buttonS" target="_blank"
+							data-event="sabio-login">Log in</a>
+					</div>
+					<div class="header__controls-item">
+						<a href="#plans" class="buttons buttons--secondary buttonS" data-event="sabio-right-plans">Get funded</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="block-hero" id="faq">
+		<div class="about-section">
+			<div class="container">
+				<div class="about__wrapper about">
+					<div class="about__body">
+						<div class="about__card card-about">
+							<div class="card-about__content">
+								<h1 class="card-about__title-big">About us</h1>
+								<h2 class="card-about__title title">Meet SabioTrade</h2>
+								<p class="card-about__sub-text">We are a proprietary trading firm equipping talented traders
+									with the financial backing needed to succeed in the global financial markets. Operating on a
+									profit-sharing
+									model, we
+									empower traders to retain up to 90% of their profits while assuming all associated risks. </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="history__wrapper history ">
+			<div class="container history__container">
+				<h2 class="history__title title">Our history</h2>
+				<div class="swiper history__swiper mySwiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide ">
+							<div class="history__body">
+								<h2 class="history__year title">2022</h2>
+								<div class="history__block block slide-1">
+									<h2 class="history__year--include title">2022</h2>
+									<h2 class="block__title title">Pioneering Amidst Change & Seeking Solutions</h2>
+									<p class="block__text">Shortly after the surge in online income queries during the 2020 pandemic, we
+										uncovered a symbiotic business model
+										benefiting both traders and the company. This led to the inception of SabioTrade, conceived as a
+										playground for talented
+										individuals with limited capital.</p>
+									<p class="block__text">Throughout the year, the SabioTrade team has been involved in strategic
+										planning and development. We've been crafting
+										unique solutions, creating an adapted prop trading ecosystem, and searching for the best offers.</p>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide ">
+							<div class="history__body">
+								<h2 class="history__year title">July - November 2023</h2>
+								<div class="history__block block slide-2">
+									<h2 class="history__year--include title">July - November 2023</h2>
+									<h2 class="block__title title">The Big Launch</h2>
+									<p class="block__text">In July 2023, SabioTrade officially launched its operations, unveiling a
+										distinctive traderoom combined with the
+										dashboard — a market-unique solution allowing traders to perform all operations within a unified
+										interface.</p>
+									<p class="block__text">During this period, we introduced several enhancements, including crypto
+										payments, localization in six languages,
+										real-time support across four channels, an educational section, a Telegram educational channel, and
+										a vibrant Discord
+										community.</p>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide ">
+							<div class="history__body">
+								<h2 class="history__year title">December 2023</h2>
+								<div class="history__block block slide-3">
+									<h2 class="history__year--include title">December 2023</h2>
+									<h2 class="block__title title">Accelerated Ascent</h2>
+									<p class="block__text">SabioTrade swiftly made significant strides, earning recognition from clients,
+										partners, and the media within a short
+										timeframe. Our commitment to attentive listening to traders allows us to fine-tune our product in
+										real-time and deliver
+										one of the best prop trading solutions in the industry.</p>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide last-slide">
+							<div class="history__body">
+								<h2 class="history__year title">2024</h2>
+								<div class="history__block block slide-4">
+									<h2 class="history__year--include title">2024</h2>
+									<h2 class="block__title title block__title--small">Grand Plans</h2>
+									<p class="block__text block__text--small ">SabioTrade has some significant updates planned for 2024.
+										Firstly, the improved
+										SabioTraderoom: added the ability to
+										trade crypto assets, re-designed the asset selector, and optimized the panels for a higher
+										convenience.</p>
+									<p class="block__text block__text--small">The SabioDashboard has also become more functional: we
+										streamlined the payment
+										and verification processes, introduced
+										new visual indicators reflecting clients' performance and progress in assessments, and completely
+										redesigned the visual
+										appearance.</p>
+									<p class="block__text block__text--small">On top of that, we're introducing a new mobile app — a
+										feature that sets us
+										apart from most proprietary trading firms.
+										Our application adheres to the high standards of the mobile market, allowing users to access
+										SabioTraderoom on the go
+										from their mobile devices, receive signals, and more.</p>
+									<p class="block__text block__text--small">Finally, we're thrilled to invite all traders to the Sabio
+										Boot Camp, an
+										ecosystem platform designed for trader
+										training. Here, we feature exclusive educational materials, Q&A sessions, and live trading sessions
+										with expert
+										investors, among other offerings.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-pagination"></div>
+				</div>
+			</div>
+		</div>
+		<div class="statement__wrapper statement decor-bg">
+			<span class="decor-bg-element"></span>
+			<div class="container">
+				<div class="statement__body">
+					<div class="statement__item item-statement">
+						<img src="images/st-01.svg" alt="01" class="item-statement__img">
+						<h2 class="item-statement__title title">Mission statement</h2>
+						<p class="item-statement__text">At SabioTrade, we aim to create a risk-free and affordable trading
+							ecosystem
+							for skilled traders by providing funding,
+							cutting-edge technology, and community support to help people achieve ambitious financial goals.</p>
+					</div>
+					<div class="statement__item item-statement">
+						<img src="images/st-02.svg" alt="02" class="item-statement__img">
+						<h2 class="item-statement__title title">Vision statement</h2>
+						<p class="item-statement__text">SabioTrade envisions becoming the ultimate hub for traders, merging
+							innovative trading solutions, top-tier education,
+							and a supportive community in a seamless ecosystem. Our commitment lies in funding qualified traders,
+							empowering them to
+							attain unparalleled success in the financial markets.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="rock__wrapper rock">
+			<div class="container">
+				<div class="rock__body">
+					<h2 class="rock__title title">Why we rock</h2>
+					<ul class="rock__cards cards-rock">
+						<li class="cards-rock__card card-rock">
+							<img src="images/rock/01.svg" alt="01" class="card-rock__img">
+							<h2 class="card-rock__title title">360° Trading Ecosystem</h2>
+							<p class="card-rock__text">The Sabio platform boasts an industry-unique dashboard + traderoom combo.
+								While
+								other prop trading platforms often
+								redirect traders to third-party platforms, our integrated ecosystem ensures a technologically
+								advanced
+								environment,
+								providing an extra layer of convenience in executing operations.</p>
+						</li>
+						<li class="cards-rock__card card-rock">
+							<img src="images/rock/02.png" alt="02" class="card-rock__img">
+							<h2 class="card-rock__title title">Variability of Assets</h2>
+							<p class="card-rock__text">At SabioTrade, one can access an extensive range of assets, including forex,
+								metals, stocks, etc. This diversity
+								empowers traders to explore various markets and capitalize on opportunities depending on their
+								individual preferences
+								and strategies.</p>
+						</li>
+						<li class="cards-rock__card card-rock">
+							<img src="images/rock/03.svg" alt="03" class="card-rock__img">
+							<h2 class="card-rock__title title">Transparent 1-Step Assessment</h2>
+							<p class="card-rock__text">SabioTrade simplifies the onboarding process with a transparent one-step
+								assessment. There are no time limits; take as
+								much time as you need to complete the assessment at your own pace.</p>
+						</li>
+						<li class="cards-rock__card card-rock">
+							<img src="images/rock/04.svg" alt="04" class="card-rock__img">
+							<h2 class="card-rock__title title">Affordable Tariffs and High Profit Percentage</h2>
+							<p class="card-rock__text">We make trading accessible with low-cost assessment accounts, offering
+								traders
+								the opportunity to access funding up to
+								$200K. This allows for substantial profit-sharing opportunities of up to 90%, ensuring maximum returns
+								even with a small
+								initial investment.</p>
+						</li>
+						<li class="cards-rock__card card-rock">
+							<img src="images/rock/05.svg" alt="05" class="card-rock__img">
+							<h2 class="card-rock__title title">Education and Community Support</h2>
+							<p class="card-rock__text">We go beyond trading by providing a comprehensive educational section and a
+								vibrant community. All Sabiotraders are
+								invited to participate in an interactive boot camp and join our vibrant Discord community. On top of
+								that, our traders
+								are in for free courses, useful articles, and daily guidance from our financial analysts.</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="team__wrapper team">
+			<span class="team-bg"></span>
+			<div class="container ">
+				<div class="team__body">
+					<ul class="team__list">
+						<li class="team__card">
+							<div class="team__img team__img--1">
+								<div class="team__content content-team">
+									<h2 class="content-team__title title">The Sabio Team</h2>
+									<p class="content-team__text">Behind the trade name, SabioTrade is a group of dedicated
+										professionals
+										from around the globe with a wealth of
+										experience spanning finance, technology, and customer service. Our commitment is unwavering: to
+										support each trader on
+										our platform, offer innovative solutions, and nurture a dynamic global community.</p>
+								</div>
+							</div>
+							<img src="images/team/1.png" class="team-decor" alt="#">
+						</li>
+						<li class="team__card">
+							<img src="images/team/02.png" class="team-decor" alt="#">
+							<div class="team__img team__img--2">
+								<div class="team__content content-team">
+									<h2 class="content-team__title title">Operational Reach</h2>
+									<p class="content-team__text">SabioTrade operates globally, reaching clients in Europe, Latin
+										America,
+										Africa, and Asia and hoping to eventually
+										SabioTrade-ize every last country in the world.
+										Welcome aboard!</p>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__first">
+				<div class="footer__warn-title importantXS">Risk Warning</div>
+				<p class="footer__warn-text">
+					The content on this website is for general information only. The service and company website are provided
+					on
+					an "as-is" basis and without warranty of any kind, including, but not limited to warranties of title,
+					merchantability, accuracy, fitness for a particular purpose, security, and non-infringement.
+				</p>
+				<p class="footer__warn-text">
+					Financial products are complex, entail risk of loss, may rise and fall, and are impacted by a range of
+					market
+					and economic factors, and you should always obtain professional advice to ensure trading or investing in
+					CFD
+					instruments is suitable for your circumstances, and ensure you obtain, read and understand any applicable
+					terms and conditions.
+				</p>
+			</div>
+			<div class="footer__middle">
+				<div class="footer__links">
+					<div class="footer__links-item">
+						<a href="https://sabiotrade.com/terms" class="footer__links-link buttonXS links links--secondary"
+							data-event="sabio-terms">Terms & Conditions</a>
+					</div>
+					<div class="footer__links-item">
+						<a href="https://sabiotrade.com/privacy" class="footer__links-link buttonXS links links--secondary"
+							data-event="sabio-privacy">Privacy policy</a>
+					</div>
+				</div>
+				<div class="social">
+					<div class="social__item">
+						<a href="https://discord.com/SabioTrade" target="_blank">
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+								<rect x="2" y="2.41602" width="20" height="20" rx="2" fill="#B9BADB" />
+								<path
+									d="M17.5535 7.33726C16.5178 6.90689 15.4104 6.59411 14.2526 6.41602C14.1104 6.64433 13.9443 6.95142 13.8298 7.19571C12.599 7.03132 11.3796 7.03132 10.1714 7.19571C10.0569 6.95142 9.88704 6.64433 9.74357 6.41602C8.58454 6.59411 7.47584 6.90804 6.44013 7.33954C4.3511 10.1432 3.78479 12.8772 4.06794 15.5724C5.4535 16.4914 6.79627 17.0496 8.11638 17.4149C8.44233 17.0165 8.73302 16.593 8.98345 16.1466C8.5065 15.9857 8.04969 15.787 7.61805 15.5564C7.73256 15.4811 7.84457 15.4023 7.95279 15.3213C10.5855 16.4149 13.4459 16.4149 16.0472 15.3213C16.1566 15.4023 16.2686 15.4811 16.3819 15.5564C15.949 15.7882 15.4909 15.9868 15.014 16.1478C15.2644 16.593 15.5538 17.0176 15.881 17.416C17.2024 17.0507 18.5464 16.4925 19.932 15.5724C20.2642 12.448 19.3644 9.73908 17.5535 7.33726ZM9.34212 13.9149C8.55181 13.9149 7.9037 13.2596 7.9037 12.4617C7.9037 11.6637 8.53797 11.0074 9.34212 11.0074C10.1463 11.0074 10.7944 11.6626 10.7805 12.4617C10.7818 13.2596 10.1463 13.9149 9.34212 13.9149ZM14.6578 13.9149C13.8675 13.9149 13.2194 13.2596 13.2194 12.4617C13.2194 11.6637 13.8537 11.0074 14.6578 11.0074C15.462 11.0074 16.1101 11.6626 16.0962 12.4617C16.0962 13.2596 15.462 13.9149 14.6578 13.9149Z"
+									fill="#000B36" />
+							</svg>
+						</a>
+					</div>
+					<div class="social__item">
+						<a href="https://t.me/sabiotrade" target="_blank">
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="M4 2.41602C2.89543 2.41602 2 3.31145 2 4.41602V20.416C2 21.5206 2.89543 22.416 4 22.416H20C21.1046 22.416 22 21.5206 22 20.416V4.41602C22 3.31145 21.1046 2.41602 20 2.41602H4ZM18.9149 6.84151L16.5651 18.1442C16.5098 18.411 16.1968 18.532 15.976 18.3715L12.7684 16.0427C12.5736 15.9013 12.3081 15.9088 12.1217 16.0608L10.3432 17.5105C10.1368 17.6793 9.8258 17.5852 9.74677 17.331L8.80318 14.2964C8.61943 13.7055 8.17247 13.2329 7.59269 13.0165L5.32141 12.1689C4.99732 12.0474 4.99455 11.5899 5.31771 11.4654L18.4114 6.41421C18.689 6.30687 18.9754 6.55004 18.9149 6.84151Z"
+									fill="#B9BADB" />
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="M15.8255 8.43575L9.31178 12.7936C9.06211 12.961 8.94461 13.2885 9.02515 13.5951L9.72941 16.2832C9.77951 16.4737 10.0339 16.4542 10.0583 16.2574L10.2413 14.7833C10.2759 14.5058 10.3977 14.2499 10.5867 14.0589L15.9624 8.63088C16.063 8.52962 15.9425 8.35769 15.8255 8.43575Z"
+									fill="#B9BADB" />
+							</svg>
+						</a>
+					</div>
+					<div class="social__item">
+						<a href="https://www.instagram.com/sabiotrade/" target="_blank">
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+								<path
+									d="M12 2.41602C14.717 2.41602 15.056 2.42602 16.122 2.47602C17.187 2.52602 17.912 2.69302 18.55 2.94102C19.21 3.19502 19.766 3.53902 20.322 4.09402C20.8305 4.59391 21.224 5.1986 21.475 5.86602C21.722 6.50302 21.89 7.22902 21.94 8.29402C21.987 9.36002 22 9.69902 22 12.416C22 15.133 21.99 15.472 21.94 16.538C21.89 17.603 21.722 18.328 21.475 18.966C21.2247 19.6338 20.8311 20.2386 20.322 20.738C19.822 21.2463 19.2173 21.6398 18.55 21.891C17.913 22.138 17.187 22.306 16.122 22.356C15.056 22.403 14.717 22.416 12 22.416C9.283 22.416 8.944 22.406 7.878 22.356C6.813 22.306 6.088 22.138 5.45 21.891C4.78233 21.6405 4.17753 21.247 3.678 20.738C3.16941 20.2382 2.77593 19.6335 2.525 18.966C2.277 18.329 2.11 17.603 2.06 16.538C2.013 15.472 2 15.133 2 12.416C2 9.69902 2.01 9.36002 2.06 8.29402C2.11 7.22802 2.277 6.50402 2.525 5.86602C2.77524 5.19819 3.1688 4.59334 3.678 4.09402C4.17767 3.58525 4.78243 3.19174 5.45 2.94102C6.088 2.69302 6.812 2.52602 7.878 2.47602C8.944 2.42902 9.283 2.41602 12 2.41602ZM12 7.41602C10.6739 7.41602 9.40215 7.9428 8.46447 8.88048C7.52678 9.81816 7 11.0899 7 12.416C7 13.7421 7.52678 15.0139 8.46447 15.9515C9.40215 16.8892 10.6739 17.416 12 17.416C13.3261 17.416 14.5979 16.8892 15.5355 15.9515C16.4732 15.0139 17 13.7421 17 12.416C17 11.0899 16.4732 9.81816 15.5355 8.88048C14.5979 7.9428 13.3261 7.41602 12 7.41602ZM18.5 7.16602C18.5 6.8345 18.3683 6.51655 18.1339 6.28213C17.8995 6.04771 17.5815 5.91602 17.25 5.91602C16.9185 5.91602 16.6005 6.04771 16.3661 6.28213C16.1317 6.51655 16 6.8345 16 7.16602C16 7.49754 16.1317 7.81548 16.3661 8.0499C16.6005 8.28432 16.9185 8.41602 17.25 8.41602C17.5815 8.41602 17.8995 8.28432 18.1339 8.0499C18.3683 7.81548 18.5 7.49754 18.5 7.16602ZM12 9.41602C12.7956 9.41602 13.5587 9.73209 14.1213 10.2947C14.6839 10.8573 15 11.6204 15 12.416C15 13.2117 14.6839 13.9747 14.1213 14.5373C13.5587 15.0999 12.7956 15.416 12 15.416C11.2044 15.416 10.4413 15.0999 9.87868 14.5373C9.31607 13.9747 9 13.2117 9 12.416C9 11.6204 9.31607 10.8573 9.87868 10.2947C10.4413 9.73209 11.2044 9.41602 12 9.41602Z"
+									fill="#B9BADB" />
+							</svg>
+						</a>
+					</div>
+					<div class="social__item">
+						<a href="#" target="_blank">
+							<svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+								<g clip-path="url(#clip0_1356_254)">
+									<path fill-rule="evenodd" clip-rule="evenodd"
+										d="M17.5565 0.416016C18.9051 0.416016 20 1.51094 20 2.85953V17.9725C20 19.3211 18.9051 20.416 17.5565 20.416H13.3976V12.8803H15.9991L16.4941 9.65289H13.3976V7.55848C13.3976 6.67555 13.8301 5.81488 15.2171 5.81488H16.625V3.06723C16.625 3.06723 15.3473 2.84918 14.1257 2.84918C11.5754 2.84918 9.90852 4.39484 9.90852 7.19309V9.65289H7.07363V12.8803H9.90852V20.416H2.44352C1.09492 20.416 0 19.3211 0 17.9725V2.85953C0 1.51094 1.09488 0.416016 2.44352 0.416016H17.5565V0.416016Z"
+										fill="#B9BADB" />
+								</g>
+								<defs>
+									<clipPath id="clip0_1356_254">
+										<rect width="20" height="20" fill="white" transform="translate(0 0.416016)" />
+									</clipPath>
+								</defs>
+							</svg></a>
+					</div>
+				</div>
+			</div>
+			<div class="footer__last">
+				<a href="mailto:support@sabiotrade.com" class="footer__last-email buttonXS links links--primary">SabioTrade
+					Support</a>
+				<div class="footer__last-copyright defaultXS">
+					Sabio Trade, 2021–2023
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div class="cookie-bar" style="display: flex">
+		<div class="cookie-bar__content">
+			<p class="cookie-bar__text">
+				By continuing to use this site you consent with our
+				<a href="cookie_policy" class="cookie-bar__link links links--cookie">cookie policy </a>.
+			</p>
+			<div class="cookie-bar__close">
+				<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M18 6L6 18M6 6L18 18" stroke="#5F62A0" stroke-width="1.3" stroke-linecap="round"
+						stroke-linejoin="round"></path>
+				</svg>
+			</div>
+		</div>
+	</div>
+	<!-- Swiper JS -->
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+	<!-- Initialize Swiper -->
+	<script>
+		const swiper = new Swiper('.history__swiper', {
+			// Optional parameters
+			spaceBetween: 5,
+			mousewheel: {
+				releaseOnEdges: true,
+			},
+
+			// If we need pagination
+
+			// Navigation arrows
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev',
+			},
+
+			// And if we need scrollbar
+			scrollbar: {
+				el: '.swiper-scrollbar',
+			},
+			breakpoints: {
+				320: {
+					direction: 'horizontal',
+					pagination: {
+						el: '.swiper-pagination',
+					},
+					spaceBetween: 20,
+					autoHeight: true,
+				},
+				768: {
+					direction: 'horizontal',
+					spaceBetween: 20,
+					autoHeight: true,
+					pagination: {
+						el: '.swiper-pagination',
+					},
+				},
+				992: {
+					direction: 'horizontal',
+					spaceBetween: 0,
+					slidesPerView: 1,
+					autoHeight: true,
+
+
+				},
+				1000: {
+					direction: 'vertical',
+					autoHeight: true,
+					spaceBetween: 32,
+					slidesPerView: 1.2,
+				},
+			},
+
+		});
+
+	</script>
+</body>
+
+</html>
